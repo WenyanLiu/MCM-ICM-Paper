@@ -1,14 +1,26 @@
 \contentsline {section}{\numberline {1}Introduction}{2}{section.1}
-\contentsline {subsection}{\numberline {1.1}Other Assumptions}{3}{subsection.1.1}
-\contentsline {section}{\numberline {2}Analysis of the Problem}{3}{section.2}
-\contentsline {section}{\numberline {3}Calculating and Simplifying the Model }{5}{section.3}
-\contentsline {section}{\numberline {4}The Model Results}{5}{section.4}
-\contentsline {section}{\numberline {5}Validating the Model}{5}{section.5}
-\contentsline {section}{\numberline {6}Conclusions}{5}{section.6}
-\contentsline {section}{\numberline {7}A Summary}{6}{section.7}
-\contentsline {section}{\numberline {8}Evaluate of the Mode}{6}{section.8}
-\contentsline {section}{\numberline {9}Strengths and weaknesses}{6}{section.9}
-\contentsline {subsection}{\numberline {9.1}Strengths}{6}{subsection.9.1}
-\contentsline {section}{Appendices}{7}{section*.2}
-\contentsline {section}{Appendix \numberline {A}First appendix}{7}{Appendix.a.A}
-\contentsline {section}{Appendix \numberline {B}Second appendix}{7}{Appendix.a.B}
+\contentsline {subsection}{\numberline {1.1}Precondition}{2}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Parameters}{2}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Evaluation Model}{3}{subsection.1.3}
+\contentsline {section}{\numberline {2}Analysis of India water scarcity}{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}Results Of Evaluation Model}{3}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Explanation On Evaluation Model}{4}{subsection.2.2}
+\contentsline {section}{\numberline {3}Grey Forecasting Model}{5}{section.3}
+\contentsline {subsection}{\numberline {3.1}Assumptions}{5}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Grey Forecasting Model}{8}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Logistic Retarded Growth Model}{10}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Results Of Prediction Model}{12}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Impact On the Lives Of the Citizens Of India}{12}{subsection.3.5}
+\contentsline {section}{\numberline {4}The intervention plan}{13}{section.4}
+\contentsline {subsection}{\numberline {4.1}Sewage Disposal Model}{13}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Phychological Prediction Model}{13}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Analysis Of the Intervention Plan}{14}{subsection.4.3}
+\contentsline {section}{\numberline {5}Water Scarcity Prediction Model}{15}{section.5}
+\contentsline {subsection}{\numberline {5.1}Results Of Water Scarcity Prediction Model}{15}{subsection.5.1}
+\contentsline {section}{\numberline {6}Conclusions}{16}{section.6}
+\contentsline {subsection}{\numberline {6.1}Evaluation Of Grey Forecasting Model}{16}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Evaluation Of Logistic Retarded Growth Model}{17}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Evaluation Of Psychological Prediction Model}{17}{subsection.6.3}
+\contentsline {section}{Appendices}{19}{section*.2}
+\contentsline {section}{Appendix \numberline {A}Grey Forecasting Model}{19}{Appendix.a.A}
+\contentsline {section}{Appendix \numberline {B}Logistic Retarded Growth Model}{19}{Appendix.a.B}

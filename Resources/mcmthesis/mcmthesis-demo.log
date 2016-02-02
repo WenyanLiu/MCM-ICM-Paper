@@ -1,13 +1,13 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.1)  2 FEB 2016 07:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.22)  1 FEB 2016 16:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**45538.tex
-(./45538.tex
+**mcmthesis-demo.tex
+(./mcmthesis-demo.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/mcmthesis/mcmthesis.cls
+(./mcmthesis.cls
 Document Class: mcmthesis 2015/04/21 v5.1.0f The Thesis Template Designed For M
 CM/ICM
 The Thesis Template Designed For MCM/ICM
@@ -578,30 +578,31 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@randommax=\count155
 \c@blind@pangramcount=\count156
 \c@blind@pangrammax=\count157
-)) (./45538.aux)
-\openout1 = `45538.aux'.
+))
+No file mcmthesis-demo.aux.
+\openout1 = `mcmthesis-demo.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 37.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 10.
+(lastpage)             ! on input line 37.
 \c@lstlisting=\count158
 
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
@@ -653,7 +654,7 @@ Package lastpage Info: Please have a look at the pageslts package at
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box37
-Package hyperref Info: Link coloring OFF on input line 10.
+Package hyperref Info: Link coloring OFF on input line 37.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -662,363 +663,188 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count165
 )
-LaTeX Info: Redefining \ref on input line 10.
-LaTeX Info: Redefining \pageref on input line 10.
-LaTeX Info: Redefining \nameref on input line 10.
-
-(./45538.out) (./45538.out)
+LaTeX Info: Redefining \ref on input line 37.
+LaTeX Info: Redefining \pageref on input line 37.
+LaTeX Info: Redefining \nameref on input line 37.
 \@outlinefile=\write4
-\openout4 = `45538.out'.
+\openout4 = `mcmthesis-demo.out'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 57.
+LaTeX Font Info:    Try loading font information for U+msa on input line 44.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 57.
+LaTeX Font Info:    Try loading font information for U+msb on input line 44.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 57.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 44.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 57.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 44.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 57.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 44.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 57.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 44.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 57.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 44.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 57.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 44.
  [1
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [0] (./
-45538.toc)
-\tf@toc=\write5
-\openout5 = `45538.toc'.
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+<./figures/mcmthesis-logo.pdf, id=12, 277.4867pt x 22.33344pt>
+File: ./figures/mcmthesis-logo.pdf Graphic file (type pdf)
 
+<use ./figures/mcmthesis-logo.pdf>
+Package pdftex.def Info: ./figures/mcmthesis-logo.pdf used on input line 44.
+(pdftex.def)             Requested size: 199.16928pt x 16.02995pt.
+ [0 <./figures/mcmthesis-logo.pdf>]
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 50.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsppl.fd
+File: omsppl.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 50.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 68.
+
+
+LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 68.
 
 [1
 
 ]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 82.
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 120.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 80.
+Package epstopdf Info: Source file: <./figures/mcmthesis-aaa.eps>
+(epstopdf)                    date: 2015-01-22 07:43:20
+(epstopdf)                    size: 458067 bytes
+(epstopdf)             Output file: <./figures/mcmthesis-aaa-eps-converted-to.p
+df>
+(epstopdf)             Command: <repstopdf --outfile=./figures/mcmthesis-aaa-ep
+s-converted-to.pdf ./figures/mcmthesis-aaa.eps>
+(epstopdf)             \includegraphics on input line 95.
+runsystem(repstopdf --outfile=./figures/mcmthesis-aaa-eps-converted-to.pdf ./fi
+gures/mcmthesis-aaa.eps)...executed safely (allowed).
 
- (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsppl.fd
-File: omsppl.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 120.
- [2]
+Package epstopdf Info: Result file: <./figures/mcmthesis-aaa-eps-converted-to.p
+df>
+(epstopdf)                    date: 2016-02-01 16:34:08
+(epstopdf)                    size: 78739 bytes.
 
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 180.
+<./figures/mcmthesis-aaa-eps-converted-to.pdf, id=32, 421.575pt x 317.185pt>
+File: ./figures/mcmthesis-aaa-eps-converted-to.pdf Graphic file (type pdf)
 
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 221--222
-
- []
+<use ./figures/mcmthesis-aaa-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/mcmthesis-aaa-eps-converted-to.pdf used on i
+nput line 95.
+(pdftex.def)             Requested size: 341.43306pt x 256.89423pt.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 248--249
+LaTeX Warning: `h' float specifier changed to `ht'.
 
- []
+
+LaTeX Warning: Reference `aa' on page 2 undefined on input line 99.
+
+
+LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 102.
+
+[2]
+
+LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 120.
+
+[3 <./figures/mcmthesis-aaa-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 140.
 
 [4]
-Overfull \hbox (1.8628pt too wide) in paragraph at lines 292--301
-[]\T1/ppl/m/n/10.95 Given the se-ri-ous-ness of In-dia wa-ter sup-ply and de-ma
-nd im-bal-ances, In-dia is trapped
- []
+
+LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 169.
 
 [5]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 361.
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 400.
-
-Package epstopdf Info: Source file: <./figures/inflationGDPDeflator.eps>
-(epstopdf)                    date: 2016-01-31 20:48:15
-(epstopdf)                    size: 817922 bytes
-(epstopdf)             Output file: <./figures/inflationGDPDeflator-eps-convert
-ed-to.pdf>
-(epstopdf)                    date: 2016-01-31 20:49:17
-(epstopdf)                    size: 28183 bytes
-(epstopdf)             Command: <repstopdf --outfile=./figures/inflationGDPDefl
-ator-eps-converted-to.pdf ./figures/inflationGDPDeflator.eps>
-(epstopdf)             \includegraphics on input line 403.
-Package epstopdf Info: Output file is already uptodate.
-
-<./figures/inflationGDPDeflator-eps-converted-to.pdf, id=199, 564.1075pt x 421.
-575pt>
-File: ./figures/inflationGDPDeflator-eps-converted-to.pdf Graphic file (type pd
-f)
- <use ./figures/inflationGDPDeflator-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/inflationGDPDeflator-eps-converted-to.pdf us
-ed on input line 403.
-(pdftex.def)             Requested size: 312.9803pt x 233.89969pt.
- [6]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 422.
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 439.
-
-Package epstopdf Info: Source file: <./figures/waterProductivity.eps>
-(epstopdf)                    date: 2016-02-01 14:54:46
-(epstopdf)                    size: 796378 bytes
-(epstopdf)             Output file: <./figures/waterProductivity-eps-converted-
-to.pdf>
-(epstopdf)                    date: 2016-02-01 14:57:19
-(epstopdf)                    size: 23677 bytes
-(epstopdf)             Command: <repstopdf --outfile=./figures/waterProductivit
-y-eps-converted-to.pdf ./figures/waterProductivity.eps>
-(epstopdf)             \includegraphics on input line 442.
-Package epstopdf Info: Output file is already uptodate.
-
-<./figures/waterProductivity-eps-converted-to.pdf, id=216, 562.1pt x 421.575pt>
-File: ./figures/waterProductivity-eps-converted-to.pdf Graphic file (type pdf)
-<use ./figures/waterProductivity-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/waterProductivity-eps-converted-to.pdf used 
-on input line 442.
-(pdftex.def)             Requested size: 312.9803pt x 234.73595pt.
- [7 <./figures/inflationGDPDeflator-eps-converted-to.pdf>] [8 <./figures/waterP
-roductivity-eps-converted-to.pdf>]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 524.
-
-
-Overfull \hbox (14.18196pt too wide) in paragraph at lines 526--550
- [][] 
- []
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 562.
-
-Package epstopdf Info: Source file: <./figures/greyForecastingModel.eps>
-(epstopdf)                    date: 2016-02-01 08:51:24
-(epstopdf)                    size: 763938 bytes
-(epstopdf)             Output file: <./figures/greyForecastingModel-eps-convert
-ed-to.pdf>
-(epstopdf)                    date: 2016-02-01 10:38:44
-(epstopdf)                    size: 18554 bytes
-(epstopdf)             Command: <repstopdf --outfile=./figures/greyForecastingM
-odel-eps-converted-to.pdf ./figures/greyForecastingModel.eps>
-(epstopdf)             \includegraphics on input line 565.
-Package epstopdf Info: Output file is already uptodate.
-
-<./figures/greyForecastingModel-eps-converted-to.pdf, id=255, 562.1pt x 421.575
-pt>
-File: ./figures/greyForecastingModel-eps-converted-to.pdf Graphic file (type pd
-f)
- <use ./figures/greyForecastingModel-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/greyForecastingModel-eps-converted-to.pdf us
-ed on input line 565.
-(pdftex.def)             Requested size: 312.9803pt x 234.73595pt.
- [9]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 599.
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 641.
-
-Package epstopdf Info: Source file: <./figures/logisticRetardedGrowthModel.eps>
-
-(epstopdf)                    date: 2016-01-31 11:36:33
-(epstopdf)                    size: 758166 bytes
-(epstopdf)             Output file: <./figures/logisticRetardedGrowthModel-eps-
-converted-to.pdf>
-(epstopdf)                    date: 2016-01-31 11:43:43
-(epstopdf)                    size: 18775 bytes
-(epstopdf)             Command: <repstopdf --outfile=./figures/logisticRetarded
-GrowthModel-eps-converted-to.pdf ./figures/logisticRetardedGrowthModel.eps>
-(epstopdf)             \includegraphics on input line 644.
-Package epstopdf Info: Output file is already uptodate.
-
-<./figures/logisticRetardedGrowthModel-eps-converted-to.pdf, id=271, 562.1pt x 
-421.575pt>
-File: ./figures/logisticRetardedGrowthModel-eps-converted-to.pdf Graphic file (
-type pdf)
- <use ./figures/logisticRetardedGrowthModel-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/logisticRetardedGrowthModel-eps-converted-to
-.pdf used on input line 644.
-(pdftex.def)             Requested size: 312.9803pt x 234.73595pt.
-
-[10 <./figures/greyForecastingModel-eps-converted-to.pdf>] [11 <./figures/logis
-ticRetardedGrowthModel-eps-converted-to.pdf>] [12] [13]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 778.
-
-Package epstopdf Info: Source file: <./figures/phychologicalPredictionModel.eps
->
-(epstopdf)                    date: 2016-02-01 18:35:32
-(epstopdf)                    size: 755358 bytes
-(epstopdf)             Output file: <./figures/phychologicalPredictionModel-eps
--converted-to.pdf>
-(epstopdf)                    date: 2016-02-01 18:37:40
-(epstopdf)                    size: 18699 bytes
-(epstopdf)             Command: <repstopdf --outfile=./figures/phychologicalPre
-dictionModel-eps-converted-to.pdf ./figures/phychologicalPredictionModel.eps>
-(epstopdf)             \includegraphics on input line 781.
-Package epstopdf Info: Output file is already uptodate.
-
-<./figures/phychologicalPredictionModel-eps-converted-to.pdf, id=324, 562.1pt x
- 421.575pt>
-File: ./figures/phychologicalPredictionModel-eps-converted-to.pdf Graphic file 
-(type pdf)
- <use ./figures/phychologicalPredictionModel-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/phychologicalPredictionModel-eps-converted-t
-o.pdf used on input line 781.
-(pdftex.def)             Requested size: 312.9803pt x 234.73595pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 799--800
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 813--814
-
- []
-
-[14 <./figures/phychologicalPredictionModel-eps-converted-to.pdf>]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 861.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 889--890
-
- []
-
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 897--898
-
- []
-
-
-Overfull \hbox (34.40892pt too wide) in paragraph at lines 899--904
-[]$\OML/cmm/m/it/10.95 ^^L$ \T1/ppl/m/n/10.95 tends be 0, so $\OML/cmm/m/it/10.
-95 ^^M \OT1/cmr/m/n/10.95 = 614\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 5776 \OM
-L/cmm/m/it/10.95 km[]=yr$\T1/ppl/m/n/10.95 , the max-i-mum de-mand for wa-ter i
-s $\OT1/cmr/m/n/10.95 973\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 974 \OML/cmm/m
-/it/10.95 km[]=yr$\T1/ppl/m/n/10.95 .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 942--943
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 952--953
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 969--970
-
- []
-
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 975--976
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 989--990
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 995--996
-
- []
-
-[17] [18]
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 1012.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1015--1016
-
- []
-
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 1018.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/t1pcr.fd
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 169.
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-(./code/greyForecastingModel.m
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 173.
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
+
+ []
+
+(./code/mcmthesis-matlab1.m
 LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <9> not available
-(Font)              Font shape `T1/pcr/b/n' tried instead on input line 5.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 1023--1024
+(Font)              Font shape `T1/pcr/b/n' tried instead on input line 1.
+) (./code/mcmthesis-sudoku.cpp
 
- []
+LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 19.
 
-(./code/logisticRetardedGrowthModel.m
-Overfull \hbox (29.54428pt too wide) in paragraph at lines 2--3
-[][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
+[6])
 
-[19]) 
+Package lastpage Warning: Rerun to get the references right on input line 190.
+
+
 AED: lastpage setting LastPage
-[20]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1031.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1031.
- (./45538.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1031.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1031.
 
-Package rerunfilecheck Info: File `45538.out' has not changed.
-(rerunfilecheck)             Checksum: 126A27A792EC4C0B663A49446B32F234;1861.
+LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 190.
+
+[7]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 190.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 190.
+ (./mcmthesis-demo.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 190.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 190.
+
+
+Package rerunfilecheck Warning: File `mcmthesis-demo.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `mcmthesis-demo.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  487780CA491C476C0BADF782DF76AD9E;787.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 11277 strings out of 493089
- 159200 string characters out of 6134843
- 428339 words of memory out of 5000000
- 14314 multiletter control sequences out of 15000+600000
- 47710 words of font info for 117 fonts, out of 8000000 for 9000
+ 11276 strings out of 493089
+ 158195 string characters out of 6134842
+ 414997 words of memory out of 5000000
+ 14388 multiletter control sequences out of 15000+600000
+ 50030 words of font info for 126 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,17n,45p,850b,1794s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,13n,52p,859b,1919s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
-live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texli
-ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive
-/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2
-015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/texmf-d
-ist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2015/tex
-mf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2015/texmf-dist/
-fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
-pe1/urw/palatino/uplb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw
-/palatino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palati
-no/uplri8a.pfb>
-Output written on 45538.pdf (22 pages, 335673 bytes).
+live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texli
+ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
+/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/20
+15/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/201
+5/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/
+texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2015/texmf-di
+st/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts
+/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/
+urw/palatino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/pal
+atino/uplri8a.pfb>
+Output written on mcmthesis-demo.pdf (9 pages, 239211 bytes).
 PDF statistics:
- 507 PDF objects out of 1000 (max. 8388607)
- 447 compressed objects within 5 object streams
- 143 named destinations out of 1000 (max. 500000)
- 234 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 209 PDF objects out of 1000 (max. 8388607)
+ 178 compressed objects within 2 object streams
+ 85 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

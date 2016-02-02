@@ -28,22 +28,28 @@
 %% 
 \NeedsTeXFormat{LaTeX2e}[1999/12/01]
 \ProvidesClass{mcmthesis}
-  [2015/01/19 v5.1.0b Thesis Template For MCM/ICM]
-\typeout{Thesis Template For MCM/ICM}
-\def\MCMversion{v5.1.0b}
+  [2015/04/21 v5.1.0f The Thesis Template Designed For MCM/ICM]
+\typeout{The Thesis Template Designed For MCM/ICM}
+\def\MCMversion{v5.1.0f}
 \RequirePackage{kvoptions}
 \RequirePackage{etoolbox}
 \SetupKeyvalOptions{family=MCM, prefix=MCM@opt@, setkeys=\kvsetkeys}
-\newcommand{\skv}[1]{\kvsetkeys{MCM}{#1}}
+\newcommand{\mcmsetup}[1]{\kvsetkeys{MCM}{#1}}
 \DeclareBoolOption[true]{sheet}
 \DeclareComplementaryOption{nosheet}{sheet}
+\DeclareBoolOption[false]{titleinsheet}
+\DeclareComplementaryOption{notitleinsheet}{titleinsheet}
+\DeclareBoolOption[false]{keywordsinsheet}
+\DeclareComplementaryOption{nokeywordsinsheet}{keywordsinsheet}
+\DeclareBoolOption[true]{titlepage}
+\DeclareComplementaryOption{notitlepage}{titlepage}
 \DeclareBoolOption[true]{abstract}
 \DeclareComplementaryOption{noabstract}{abstract}
 \DeclareStringOption[0000]{tcn}[0000]
+\DeclareStringOption[A]{problem}[A]
 \DeclareDefaultOption{\relax}
 \ProcessKeyvalOptions*\relax
 \LoadClass[a4paper, 11pt]{article}
-\newcommand{\control}{\MCM@opt@tcn}
 \newcommand{\team}{Team \#\ \MCM@opt@tcn}
 \RequirePackage{fancyhdr, fancybox}
 \RequirePackage{ifthen}
@@ -64,6 +70,7 @@
 \RequirePackage[scaled]{berasans}
 \RequirePackage{hyperref}
 \RequirePackage{ifpdf, ifxetex}
+\RequirePackage{environ}
 \ifpdf
   \RequirePackage{graphicx}
   \RequirePackage{epstopdf}
@@ -109,13 +116,81 @@
 \renewcommand{\tablename}{Table}
 \graphicspath{{./}{./img/}{./fig/}{./image/}{./figure/}{./picture/}
             {./imgs/}{./figs/}{./images/}{./figures/}{./pictures/}}
-\def\@maketitle{%
-  \ifMCM@opt@sheet%
-  \makesheet%
+\def\maketitle{%
+  \let\saved@thepage\thepage
+  \let\thepage\relax
+  \ifMCM@opt@sheet
+  \makesheet
   \fi
   \newpage
-  \null
-  \vskip 2em%
+  \ifMCM@opt@titlepage
+    \MCM@maketitle
+  \fi
+  \let\thepage\saved@thepage
+  \setcounter{page}{0}
+  \clearpage
+  \pagestyle{fancy}
+}
+\def\abstractname{Summary}
+\RenewEnviron{abstract}{\xdef\@abstract{\expandonce\BODY}}
+\def\make@abstract{%
+  \begin{center}
+    \textbf{\abstractname}
+  \end{center}
+  \@abstract\par
+}
+\def\keywordsname{Keywords}
+\NewEnviron{keywords}{\xdef\@keywords{\expandonce\BODY}}
+\def\make@keywords{%
+  \par\noindent\textbf{\keywordsname}:
+  \@keywords\par
+}
+\newcommand{\problem}[1]{\mcmsetup{problem = #1}}
+\def\makesheet{%
+  \pagestyle{empty}%
+  \null%
+  \vspace*{-6pc}%
+  \begin{center}
+  \begingroup
+  \setlength{\parindent}{0pt}
+     \begin{minipage}{0.28\linewidth}
+      For office use only\\[4pt]
+      \makebox[0.15\linewidth][l]{T1}\rule[-2pt]{0.85\linewidth}{0.5pt}\\[4pt]
+      \makebox[0.15\linewidth][l]{T2}\rule[-2pt]{0.85\linewidth}{0.5pt}\\[4pt]
+      \makebox[0.15\linewidth][l]{T3}\rule[-2pt]{0.85\linewidth}{0.5pt}\\[4pt]
+      \makebox[0.15\linewidth][l]{T4}\rule[-2pt]{0.85\linewidth}{0.5pt}
+     \end{minipage}%
+     \begin{minipage}{0.44\linewidth}
+      \centering
+      Team Control Number\\[0.7pc]
+      {\LARGE\textbf{\MCM@opt@tcn}}\\[1.8pc]
+      Problem Chosen\\[0.7pc]
+      {\Huge\textbf{\MCM@opt@problem}}
+     \end{minipage}%
+     \begin{minipage}{0.28\linewidth}
+      For office use only\\[4pt]
+      \makebox[0.15\linewidth][l]{F1}\rule[-2pt]{0.85\linewidth}{0.5pt}\\[4pt]
+      \makebox[0.15\linewidth][l]{F2}\rule[-2pt]{0.85\linewidth}{0.5pt}\\[4pt]
+      \makebox[0.15\linewidth][l]{F3}\rule[-2pt]{0.85\linewidth}{0.5pt}\\[4pt]
+      \makebox[0.15\linewidth][l]{F4}\rule[-2pt]{0.85\linewidth}{0.5pt}
+     \end{minipage}\par
+  \rule{\linewidth}{0.5pt}\par
+  \textbf{{\Large\the\year}\\%
+  Mathematical Contest in Modeling (MCM/ICM) Summary Sheet}%
+  \par
+  \endgroup
+  \vskip 10pt%
+  \ifMCM@opt@titleinsheet
+    \normalfont \LARGE \@title \par
+  \fi
+  \end{center}
+\ifMCM@opt@keywordsinsheet
+  \make@abstract
+  \make@keywords
+\else
+  \make@abstract
+\fi}
+\newcommand{\MCM@maketitle}{%
   \begin{center}%
   \let \footnote \thanks
     {\LARGE \@title \par}%
@@ -131,66 +206,10 @@
   \par
   \vskip 1.5em%
   \ifMCM@opt@abstract%
-  \make@abstract%
+    \make@abstract
+    \make@keywords
   \fi%
 }
-\def\keywordsname{{\bfseries Keywords:}}
-\def\@abstract{}%
-\newbox\@abstract%
-\setbox\@abstract\hbox{}%
-\long\def\abstract{\bgroup\global\setbox\@abstract%
-  \vbox\bgroup\hsize\textwidth\leftskip1cm\rightskip1cm}%
-\def\endabstract{\egroup\egroup}
-\newbox\@keywords
-\setbox\@keywords\hbox{}
-\def\keywords{\bgroup\global\setbox\@keywords\vbox\bgroup\noindent\leftskip0cm}
-\def\endkeywords{\egroup\egroup}%
-\def\make@abstract{%
-\par%
-\centerline{\bfseries\abstractname}\vskip5pt\par%
-\noindent\usebox\@abstract\par%
-\noindent\hskip1cm\keywordsname\ \usebox\@keywords%
-\vskip10pt%
-}
-\newcommand{\@problem}[1]{}
-\newcommand{\problem}[1]{\gdef\@problem{#1}}
-\def\makesheet{%
-  \null%
-  \vskip 3em%
-  \begingroup\fontfamily{fvs}\fontseries{m}\selectfont%
-  \thispagestyle{empty}%
-  \noindent\begin{tabularx}{0.3\textwidth}{lX}%
-  \multicolumn{2}{l}{For office use only}\\
-    T1&\rule{3cm}{0.5pt}\\
-    T2&\rule{3cm}{0.5pt}\\
-    T3&\rule{3cm}{0.5pt}\\
-    T4&\rule{3cm}{0.5pt}\\
-    \end{tabularx}\hspace{\fill}
-    \begin{minipage}{0.33\textwidth}
-    \centering
-    Team Control Number\\[10pt]
-    {\fontsize{38pt}{25pt}\selectfont  \textbf{\MCM@opt@tcn} }%
-      \normalsize\\[10pt]
-    Problem Chosen\\[10pt]
-    {\fontsize{20pt}{\baselineskip}\selectfont \textbf{\@problem}}\normalsize\\
-    \end{minipage}\hspace{\fill}
-    \begin{tabularx}{0.28\textwidth}{lX}%
-    \multicolumn{2}{l}{For office use only}\\
-    F1&\rule{3cm}{0.5pt}\\
-    F2&\rule{3cm}{0.5pt}\\
-    F3&\rule{3cm}{0.5pt}\\
-    F4&\rule{3cm}{0.5pt}\\
-    \end{tabularx}\par
-\noindent\rule{\textwidth}{0.5pt}\par
-\begin{center}
-  \textbf{\the\year\ Mathematical Contest in Modeling (MCM) Summary Sheet}\\
-(Attach a copy of this page to each copy of your solution paper.)
-\end{center}
-\par%
-\vskip 1.5em%
-\centerline{\large\bfseries\abstractname}
-\noindent\usebox\@abstract%
-\endgroup}
 \newtheorem{Theorem}{Theorem}[section]
 \newtheorem{Lemma}[Theorem]{Lemma}
 \newtheorem{Corollary}[Theorem]{Corollary}
