@@ -8,6 +8,8 @@ The paper is a solution to [2016 ICM PROBLEM E: Are we heading towards a thirsty
 
 The paper comes as a single ``latex`` file ``45538.tex``. The latest version is generally available as a PDF at https://github.com/WenyanLiu/MCM-ICM-Paper/blob/master/45538.pdf.
 
+Raw data, source code, and other resources are found in the `data`, `code` and `Resources` directories respectively.
+
 ## Versions
 
 2018-11-11
